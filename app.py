@@ -8,7 +8,7 @@ from PIL import Image
 HF_TOKEN = st.secrets["HF_TOKEN"]
 
 # 2. 가장 안정적인 모델 주소 (OpenJourney는 무료 중 응답률이 가장 좋습니다)
-API_URL = "https://api-inference.huggingface.co/models/prompthero/openjourney"
+API_URL = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
 headers = {"Authorization": f"Bearer {HF_TOKEN}"}
 
 st.set_page_config(page_title="cottonshow 시뮬레이터", layout="wide")
