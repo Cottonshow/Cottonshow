@@ -5,7 +5,7 @@ from PIL import Image
 
 # 1. 허깅페이스에서 복사한 토큰을 여기에 붙여넣으세요.
 HF_TOKEN = st.secrets["HF_TOKEN"]
-API_URL = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
+API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1"
 headers = {"Authorization": f"Bearer {HF_TOKEN}"}
 
 # 사이트 설정 (브라우저 탭에 표시될 이름)
