@@ -4,7 +4,7 @@ import io
 from PIL import Image
 
 # 1. 허깅페이스에서 복사한 토큰을 여기에 붙여넣으세요.
-HF_TOKEN = st.secrets["HF_TOKEN"
+HF_TOKEN = st.secrets["HF_TOKEN"]
 API_URL = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
 headers = {"Authorization": f"Bearer {HF_TOKEN}"}
 
