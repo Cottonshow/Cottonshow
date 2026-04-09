@@ -7,8 +7,8 @@ from PIL import Image
 # 1. 스트림릿 세팅 (사장님 세팅 완벽함!)
 HF_TOKEN = st.secrets["HF_TOKEN"]
 
-# 2. 모델 주소 변경 (중요!! 현재 410 에러 안 나는 가장 안정적인 주소)
-API_URL = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
+# 현재 허깅페이스에서 가장 '한가한' 대체 서버 주소입니다.
+API_URL = "https://api-inference.huggingface.co/models/CompVis/stable-diffusion-v1-4"
 headers = {"Authorization": f"Bearer {HF_TOKEN}"}
 
 st.set_page_config(page_title="cottonshow 시뮬레이터", layout="wide")
