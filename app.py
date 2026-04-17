@@ -32,7 +32,7 @@ cotton_colors = {
 
 # 1. 색상 선택창
 selected_color = st.selectbox("🎨 cottonshow 색상을 선택하세요", list(cotton_colors.keys()))
-hex_color = cotton_colors[selected_name = selected_color]
+hex_color = cotton_colors[selected_color]
 
 # 2. 메인 시뮬레이터 엔진 (HTML/JS)
 html_code = f"""
